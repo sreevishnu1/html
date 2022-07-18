@@ -1,0 +1,17 @@
+div {
+background-color:greenyellow;
+width:200px;
+height:500px;
+float:left;
+margin: 10px;
+}
+ 
+  border-radius: 2%;
+img {
+    width: 10%;
+    height:20%;
+  
+}
+body{
+    margin: 100px;
+}

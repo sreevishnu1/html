@@ -1,0 +1,19 @@
+
+
+
+
+Div {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: right;
+    height:100%;
+    width:50%; 
+    padding:2px
+}
+ 
+#p1
+{
+    text-decoration:underline;
+    text-shadow: 2px 2px blue;
+     
+}

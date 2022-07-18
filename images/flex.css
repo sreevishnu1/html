@@ -1,0 +1,48 @@
+
+
+.row{
+    width: 100%;
+    height: 600px;
+    background-color:#000000;
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    position: relative;
+   
+
+}
+.col1{
+    background-color: aqua;
+    width:8%;
+    height: 7%;
+    border:5px;
+    right:600px;
+    position: absolute;
+}
+.col2{
+    background-color: blue;
+    width:7%;
+    height:6%;
+    border:5px;
+    right:500px;
+    position: absolute;
+}
+.col3{
+    background-color:green;
+    width:6%;
+    height:5%;
+    border:5px;
+    right:400px;
+    position: absolute;
+}
+.col4{
+    background-color:beige;
+    width:5%;
+    height:4%;
+    border:5px;
+    right :300px;
+    position: absolute;
+}
+
+
+

@@ -1,0 +1,103 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:Georgia ;
+    margin-top: 40px;
+    background: rgb(92,159,203);
+    background: linear-gradient(0deg, rgba(92,159,203,1) 0%, rgba(71,160,49,1) 100%);
+}
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    width:350px;
+    height:600px;
+    background: #75a8da;
+    border-radius: 10%;
+    box-shadow: 2px 0px 18px 0px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    
+
+}
+.login{
+    transform: translateY(280px);
+    padding-top: 40px ;
+    display: flex;
+    justify-content: center;
+    background: rgb(179 198 238);
+    border-radius: 35px;
+    text-align: center;
+    height: 700px;
+    transition: 1s ease-in-out;
+    width: 400px;
+    margin-top: -25px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(27, 27, 160);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+
+
+.signup{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    height: 10px;
+    width: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(78, 78, 180);
+    padding-left: 70px;
+    margin-top: 250px;   
+    
+    
+    
+
+}
+button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:auto;
+    color: rgb(64, 152, 200);
+    border-radius: 10px;
+    background-color: rgb(95, 99, 204);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 30px;
+    
+}
+
+button:hover{
+     background-color: rgb(47, 82, 255);
+}
+#chk:checked ~ .login{
+    transform: translateY(-250px);
+}
+#chk{
+    display: none;
+}
+.input:focus{
+    outline:none;
+}
+#chk:checked ~ .login label{
+    transform: scale(1);
+
+}
+#chk:checked ~ .signup label{
+    transform: scale(.5);
+}
+input{
+   padding: 15px;
+   border-radius: 10px;
+   box-shadow: 2px 0px 18px 0px rgba(0, 0, 0, 1);
+}
+label{
+    transition: .2s ease-in-out;
+
+}
